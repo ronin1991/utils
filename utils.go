@@ -1,5 +1,7 @@
 package utils
 
+import "fmt"
+
 func Contains(a []string, x string) bool {
 	for _, n := range a {  
 	   if x == n {     
@@ -16,4 +18,8 @@ func Contains(a []string, x string) bool {
 	   }  
 	}  
 	return false
+  }
+
+  func Foo() {
+	fmt.Println("foo")
   }
